@@ -42,9 +42,9 @@ body.page #preloader { border: 1.5vw solid rgba(0, 0, 0, 0.1); }
 #crown { position: absolute; left: -6vw; width: 37vw; height: 17vw; bottom: 0vw; background-image: url(logo.html); background-size: 300% 100%; background-position: 100% 0%; background-repeat: no-repeat; }
 
 #menu-trigger { position: absolute; right: 8vw; width: 9vw; height: 9vw; bottom: 3.5vw; cursor: pointer; }
-.menu-trigger { height: 12%; margin-top: -6%; width: 100%; background: #fff; position: absolute; top: 50%; transition: all 200ms ease; cursor: pointer; }
-.menu-trigger:nth-child(1) {top: 20%; }
-.menu-trigger:nth-child(3) {top: 80%; }
+.menu-trigger { height: 12%; margin-top: -6%; width: 100%; background: #fff; position: absolute; top: -80%; transition: all 200ms ease; cursor: pointer; }
+.menu-trigger:nth-child(1) {top: -60%; }
+.menu-trigger:nth-child(3) {top: -40%; }
 #menu-trigger.close .menu-trigger:nth-child(1) { transform: rotate(45deg); top: 50%; }
 #menu-trigger.close .menu-trigger:nth-child(3) { transform: rotate(-45deg); top: 50%; }
 #menu-trigger.close .menu-trigger:nth-child(2) { opacity: 0; }
